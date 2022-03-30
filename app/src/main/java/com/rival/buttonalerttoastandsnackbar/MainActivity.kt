@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                     dialogInterface.dismiss()
                 }
                 setPositiveButton("Yes") {dialogInterface, c ->
-                    Toast.makeText(this@MainActivity, "Success deleted this item", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@MainActivity, "Success deleted", Toast.LENGTH_SHORT).show()
                 }
                 alert.show()
             }
